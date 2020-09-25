@@ -1,0 +1,21 @@
+img {
+    width: 400px;
+}
+
+.bigImg {
+    width: 900px;
+}
+
+.medImg {
+    width: 600px;
+}
+
+iframe {
+    width: 400px;
+    border: 0px none transparent;
+}
+
+#timeDate {
+    width: 340px;
+    height: 18px;
+}

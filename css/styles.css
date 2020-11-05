@@ -1,21 +1,39 @@
 img {
     width: 400px;
+    height: auto;
 }
 
-.bigImg {
-    width: 900px;
-}
-
-.medImg {
-    width: 600px;
-}
-
-iframe {
+/* iframe {
     width: 400px;
     border: 0px none transparent;
-}
+} */
 
 #timeDate {
     width: 340px;
     height: 18px;
+}
+div {
+padding: 5px;
+margin: 20px 0;
+border: dashed;
+/* background-color: yellow; */
+overflow: auto;
+width: 100%;
+}
+@media only screen and (min-width: 42em){ 
+    img {
+        width: 300px;
+    }   
+    .medImg {
+        width: 450px;
+    }
+    body {
+    background-color: navy;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .bigImg {
+        width: 900px;
+    }
 }

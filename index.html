@@ -8,9 +8,11 @@
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
-<H1>Solar, Atmospheric, Geophysical Data / Traffic & Airport Weather</H1>
-<div id=sizetest>iPhone 6 portrait</div>
+<body onresize="myFunction()">
+<h1>Solar, Atmospheric, Geophysical,
+	Traffic & Airport Weather</h1>
+<div id="demo">window size test</div>
+<p id="device"></p>
 
 <A HREF="https://earthquake.usgs.gov/earthquakes/map/?extent=21.61658,-131.04492&extent=52.05249,-58.97461">Today's Earthquakes</A><BR>
 
@@ -45,13 +47,15 @@
 	
 </div>
 
+<div><img src="https://www.nps.gov/webcams-yell/oldfaithful.jpg?1605564619122" alt="old faithful"></div>
+
 <!-- <br><br>
 <img class="medImg" src="http://www.ssd.noaa.gov/PS/PCPN/DATA/RT/NA/IR4/20.jpg" alt="infrared satellite">
 <img class="medImg" src="http://www.ssd.noaa.gov/PS/PCPN/DATA/RT/NA/WV/20.jpg" alt="water vapor satellite">
 <img class="medImg" src="http://www.ssd.noaa.gov/PS/PCPN/DATA/RT/NA/VIS/20.jpg" alt="visible satellite"> -->
 
 	
-
+<div><img src="https://www.nps.gov/webcams-yell/oldfaithful.jpg?1605564619122" alt="old faithful"></div>
 <BR><BR>
 	<BR><BR>VOLCANOES AND PASSES<BR>
 	<!-- <img src="http://www.fs.fed.us/gpnf/volcanocams/msh/images/mshvolcanocam.jpg" alt="mt st helens"> -->
@@ -212,5 +216,22 @@ West Entrance
 
 THE END!
 <br><br>
+<script>
+	function myFunction() {
+	  var w = window.outerWidth;
+	  var h = window.outerHeight;
+	  var txt = "Window size: width=" + w + ", height=" + h;
+	  document.getElementById("demo").innerHTML = txt;
+	  if (w > 667 && w < 777) {
+		  document.getElementById("device").innerHTML = "big";
+	  }
+	  if (w > 777) {
+		  document.getElementById("device").innerHTML = "very big";
+	  }
+	  if (w < 667) {
+		  document.getElementById("device").innerHTML = "small";
+	  }
+	}
+	</script>
 </BODY>
 </HTML>

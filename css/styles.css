@@ -1,4 +1,7 @@
-
+.topHeading {
+    max-width: 500px;
+    word-wrap: true;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -54,5 +57,5 @@ div {
         background-color: violet;
     }
 }
-/* 375px(23.438em) iPhone, 414px(25.875em) iPhones 6/7 Plus, chrome on Mac 500px(31.250em) to 1973px(123.313em) */
+/* 375px(23.438em) iPhone, 414px(25.875em) iPhones 6/7 Plus, chrome on Mac 500px(31.250em) to 2045px(127.813em) */
 /* landscape widths: 667px(41.688em) iPhone, 736px(46.000em) Plus */

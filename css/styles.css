@@ -14,48 +14,16 @@ div {
     box-sizing: border-box;
     padding: 5px 0;
     margin: 5px 0;
-    border: dashed;
-    background-color: gray;
+    border: solid thin;
+    /* background-color: gray; */
     overflow: auto;
 /* max-width: 100%; */
 }
-@media only screen and (min-width: 24em){ 
+@media only screen and (min-width: 42em){ 
 
-    body {
-        background-color: pink;
-    }
     img {
         width: 300px;
     }   
-    /* .medImg {
-        width: 450px;
-    } */
-}
-@media only screen and (min-width: 26em) {
-    /* .bigImg {
-        width: 900px;
-    } */
-    body {
-        background-color: purple;
-    }
-}
-@media only screen and (min-width: 32em) {
-    #sizetest {
-        color: yellow;
-    }
-    body {
-        background-color: violet;
-    }
-}
-@media only screen and (min-width: 42em) {
-    body {
-        background-color: violet;
-    }
-}
-@media only screen and (min-width: 46em) {
-    body {
-        background-color: violet;
-    }
 }
 /* 375px(23.438em) iPhone, 414px(25.875em) iPhones 6/7 Plus, chrome on Mac 500px(31.250em) to 2045px(127.813em) */
 /* landscape widths: 667px(41.688em) iPhone, 736px(46.000em) Plus */

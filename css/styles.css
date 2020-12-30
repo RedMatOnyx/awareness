@@ -1,4 +1,6 @@
-.topHeading {
+body {
+    background-color: gray;
+}.topHeading {
     max-width: 500px;
     word-wrap: true;
 }

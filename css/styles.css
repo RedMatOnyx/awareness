@@ -1,6 +1,15 @@
 body {
     background-color: gray;
-}.topHeading {
+}
+.gallery {
+    display: grid;
+    grid-auto-flow: dense;
+    /* grid-template-columns: repeat(5,1fr); */
+    /* grid-template-columns: repeat(auto-fill, 200px); */
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  
+}
+.topHeading {
     max-width: 500px;
     word-wrap: true;
 }
@@ -12,15 +21,7 @@ img {
     width: 340px;
     height: 18px;
 }
-div {
-    box-sizing: border-box;
-    padding: 5px 0;
-    margin: 5px 0;
-    border: solid thin;
-    /* background-color: gray; */
-    overflow: auto;
-/* max-width: 100%; */
-}
+
 @media only screen and (min-width: 42em){ 
 
     img {

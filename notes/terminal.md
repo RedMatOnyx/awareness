@@ -1,0 +1,1 @@
+finally, i'm here in my new file that I can push to github and keep all my notes in synced to anywhere I can access the web and login to github, so have to use phone maybe to login but yay, access to all my code from anywhere!

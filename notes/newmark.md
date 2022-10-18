@@ -7,3 +7,12 @@ some more things here
 
 ### thirdly
 you'll want to try it again
+
+# another main topic
+with general stuff
+
+## subtopic
+with more specific stuff
+
+### and subterranian title
+with core logic and magma

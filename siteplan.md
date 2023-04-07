@@ -6,4 +6,5 @@ oh, i can type all over and no need to comment because this is an .md file, righ
 
 use this for the header/footer template
 <embed type="text/html" src="forinclude.html">
+:( can't use links with embed, puts landing into the small box
 

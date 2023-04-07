@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <HTML lang="en-us">
 <head>
-<title>AWARENESS AT A GLANCE</title>
+<title>AWARENESS | Home</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="css/styles.css">
 </head>
-
-<body onresize="myFunction()">
-<h1>Solar, Atmospheric, Geophysical,
-	Traffic & Airport Weather</h1>
-	<p>Now updated by contributors from two locations!</p>
-	<br><p>UNDER CONSTRUCTION</p>
+<header class="banner" style="padding: 0 11px; color: coral; background-color: black";>
+<h1>Environmental Awareness at a Glance</h1>
+<h2>Solar, Atmospheric, Geophysical,
+	Traffic & Airport Weather</h2>
+	<p>UNDER CONSTRUCTION</p>	
+	
+</header>
 <hr>
-<!-- <div id="demo">window size test</div> -->
-<!-- <p id="device"></p> -->
+<body>
 
 <A HREF="https://earthquake.usgs.gov/earthquakes/map/?extent=21.61658,-131.04492&extent=52.05249,-58.97461">Today's Earthquakes</A> | 
 <A HREF="https://forecast.weather.gov/MapClick.php?lat=47.52879&lon=-117.52418518066406&lg=english&FcstType=graphical">Hourly Weather Graph Spokane</A> 
@@ -25,202 +25,65 @@
 <a href="http://www.bigwavedave.ca/webcams.php?cam=7">Big Wave Dave in BC</a> |
 <a href="https://www.swpc.noaa.gov/">Space Weather Prediction Center</a> |
 <a href="https://www.timeanddate.com/worldclock/sunearth.html">Day & Night World Map</a>
-<a href="views/shoes.html">MyShoes</a>
-<a href="views/newsfeed.html">rss test</a>
-<a href="testground/">testground</a>
+<br>
+<a href="views/livecams.html">streaming weather cams</a>
+<a href="views/newsfeed.html">rss newsfeed</a>
+<a href="views/shoes.html">favorite shoes</a>
+<a href="views/trafficgallery.html">traffic cam gallery</a>
+<a href="views/airports.html">airport weather</a>
+<a href="views/solar.html">solar activity</a>
+<a href="views/ham.html">ham hobby</a>
 
-<!-- https://pscleanair.gov/154/Air-Quality-Data -->
-<hr>
-<!-- UTC:<iframe id="timeDate" src="http://free.timeanddate.com/clock/i74wn6c4/tt0/td2"></iframe> -->
-
-
-<iframe id="downtown-live-cam" scrolling="no" src="https://api.wetmet.net/client-content/PlayerFrame.php?CAMERA=162-03-01&amp;CFVER=WM&amp;WIDTH=100%&height=150%" frameborder="0" allowfullscreen=""></iframe>
-
-<iframe id="coeur-d-alene-lake-live-cam" scrolling="no" src="https://api.wetmet.net/client-content/PlayerFrame.php?CAMERA=162-02-01&CFVER=WM&WIDTH=100%&HEIGHT=100%" frameborder="0" allowfullscreen></iframe>
-
-<iframe allowfullscreen webkitallowfullscreen mozallowfullscreen src="https://video.nest.com/embedded/live/1zccvpZ04f?autoplay=0" frameborder="0" ></iframe>
-
-<iframe src="https://www.youtube.com/embed/-gjQP7ABEK0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-
-
-  
-<!-- </video> -->
-
-<!-- </div> -->
-<hr>
+<br>
 <div class="gallery">
-<img class="medImg" src="http://sohowww.nascom.nasa.gov/data/realtime/eit_171/512/latest.jpg" alt="blue solar disc">
-<!-- <img class="medImg" src="http://sohowww.nascom.nasa.gov/data/realtime/eit_284/512/latest.jpg" alt="yellow solar disc"> -->
-<!-- <img class="medImg" src="http://sohowww.nascom.nasa.gov/data/realtime/eit_304/512/latest.jpg" alt="red solar disc"> -->
-
-<img class="bigImg" src="https://services.swpc.noaa.gov/images/planetary-k-index.gif" alt="chart k index">
-<img class="bigImg" src="https://services.swpc.noaa.gov/images/ace-mag-24-hour.gif" alt="chart magnetic solar activity">
-
-<picture class="northernlights"><figcaption>Swedish Northern Lights</figcaption>
-	<img class="bigImg" src="https://uk.jokkmokk.jp/photo/nr3/latest.jpg" alt="jokkmokk sweden"> </picture>
-	
-<picture class="northernlights"><figcaption>Swedish Northern Lights</figcaption>
-	<img class="bigImg" src="https://uk.jokkmokk.jp/photo/nr4/latest.jpg" alt="jokkmokk sweden"> </picture>
-
-<picture class="northernlights"><figcaption>Swedish Northern Lights</figcaption>
-	<img class="bigImg" src="https://uk.jokkmokk.jp/photo/nr5/latest.jpg" alt="jokkmokk sweden"> </picture>
-
-	
-<picture><figcaption>Airports:</figcaption>
-	<img src="https://cam.pangbornairport.com/webcam/pawebcam.jpg" alt="pangborn memorial airport weather camera">
-</picture>
-	<img src="https://images.wsdot.wa.gov/airports/mosesnorth.jpg" alt="moses lake north airport weather camera">
-	<img src="https://images.wsdot.wa.gov/airports/RichApron.jpg" alt="richland airport weather camera">
-	<img src="https://images.wsdot.wa.gov/airports/bremertonRWS.jpg" alt="bremerton airport weather camera">
-	<img src="https://images.wsdot.wa.gov/airports/OlySW.jpg" alt="olympia sw airport weather camera">
-	<img src="https://images.wsdot.wa.gov/airports/Dalles.jpg" alt="the dalles airport weather camera">
-	<img src="https://images.wsdot.wa.gov/airports/hyakwnw.jpg" alt="hyak airport weather camera https native">
-	<img src="https://images.wsdot.wa.gov/airports/packwood7.jpg" alt="packwood airport weather camera">
-	<img src="https://images.wsdot.wa.gov/airports/prossernw.jpg" alt="prosser airport weather camera">
-	
-
 <picture id="faithful"><figcaption>Old Faithful</figcaption>
 	<img src="https://www.nps.gov/webcams-yell/oldfaithful.jpg?1605564619122" alt="old faithful"></picture>	
 
-<!-- <img class="medImg" src="http://www.ssd.noaa.gov/PS/PCPN/DATA/RT/NA/IR4/20.jpg" alt="infrared satellite"> -->
-<!-- <img class="medImg" src="http://www.ssd.noaa.gov/PS/PCPN/DATA/RT/NA/WV/20.jpg" alt="water vapor satellite"> -->
-<!-- <img class="medImg" src="http://www.ssd.noaa.gov/PS/PCPN/DATA/RT/NA/VIS/20.jpg" alt="visible satellite"> -->
-
-	<!-- <img src="http://www.fs.fed.us/gpnf/volcanocams/msh/images/mshvolcanocam.jpg" alt="mt st helens"> -->
-	<!-- <img src="http://images.wsdot.wa.gov/SC/012VC15094.jpg" alt="pic"> -->
-	<!-- <img src="http://images.wsdot.wa.gov/rweather/elk_medium.jpg" alt="pic"> -->
-	<img src="http://images.wsdot.wa.gov/sc/090VC06740.jpg" alt="Easton Hill">
-	<img src="http://images.wsdot.wa.gov/sc/090VC05200.jpg" alt="Snoqualmie Pass">
-
-
-<picture class="mtspokane"><figcaption>MT SPOKANE</figcaption>
-<img src="https://www.mtspokane.com/webcam/mtsp-cam-01.jpg?1355211958" alt="pic"></picture>
-<img class="mtspokane"src="https://www.mtspokane.com/webcam/mtsp-cam-03.jpg?1365515329" alt="pic">
-
-<picture><figcaption>Queen Anne Tower, Seattle</figcaption>
-<img src="http://star1015.com/resources/ftptransfer/kplz/maps/QATowerCam.jpg" alt="pic"></picture>
-
-<picture><figcaption>Lake Wenatchee, Pine Cone Cabin</figcaption>
-<img src="http://pineconecabin.org/Images_Cam/Cabin.jpg" alt="lake wenatchee"></picture>
-
-<picture><figcaption><A HREF="https://www.nps.gov/yell/learn/photosmultimedia/webcams.htm">YELLOWSTONE</A></figcaption>
-<img class="largerImg" src="https://www.nps.gov/webcams-yell/west_gate.jpg?20200243326" alt="pic"></picture>
-<img class="largerImg" src="https://www.nps.gov/webcams-yell/west_into.jpg?202002433249" alt="pic">
-
-<picture><figcaption>Hurricane Ridge</figcaption>
-<img class="largerImg" src="https://www.nps.gov/webcams-olym/current_ridgecam.jpg" alt="pic"></picture>
-
-<picture><figcaption>White Mountains, Phoenix</figcaption>
-	<img class="largerImg" src="https://www.phoenixvis.net/CreateMain.aspx?t=main&p=/images/photos-main/WHTM1.jpg" alt="white mountains west of Phoenix AZ"></picture>
+<img class="medImg" src="http://www.ssd.noaa.gov/PS/PCPN/DATA/RT/NA/IR4/20.jpg" alt="infrared satellite">
+		<img class="medImg" src="http://www.ssd.noaa.gov/PS/PCPN/DATA/RT/NA/WV/20.jpg" alt="water vapor satellite">
+		<img class="medImg" src="http://www.ssd.noaa.gov/PS/PCPN/DATA/RT/NA/VIS/20.jpg" alt="visible satellite">
 		
-<picture>
-	<figcaption>MT RAINEER from Paradise (Mora East)</figcaption>
-	<img class="largerImg" src="http://www.nps.gov/webcams-mora/east.jpg" alt="mt raineer parking lot">
-</picture>
+			<!-- <img src="http://www.fs.fed.us/gpnf/volcanocams/msh/images/mshvolcanocam.jpg" alt="mt st helens"> -->
+			<!-- <img src="http://images.wsdot.wa.gov/SC/012VC15094.jpg" alt="pic"> -->
+			<!-- <img src="http://images.wsdot.wa.gov/rweather/elk_medium.jpg" alt="elk medium"> -->
 
-<picture>
-	<figcaption>MT RAINEER from Paradise to the south (Mora)</figcaption>
-	<img src="http://www.nps.gov/webcams-mora/mountain.jpg" alt="Paradise by Mt Raineer">
-</picture>
-
-<picture>
-	<figcaption>Vet Mem Bridge</figcaption>
-	<img src="https://idcam.carsprogram.org/02D714D0_F90B0DB1_CAM1.jpg?1609348560000" alt="vet mem bridge">
-</picture>
-
-<picture>
-	<figcaption>Wallace Viaduct I-90 Idaho</figcaption>
-	<img src="https://idcam.carsprogram.org/02D4670C_F91769C1_CAM2.jpg?1609348920000" alt="wallace viaduct east view">
-</picture>
-
-<picture><figcaption>I-90 MED LK TO IDAHO</figcaption>
-<img src="http://images.wsdot.wa.gov/spokane/i90/cctv023.jpg" alt="I-90/Medical Lk Rd"></picture>
-<img src="http://images.wsdot.wa.gov/spokane/i90/cctv022.jpg" alt="I-90/Thomas Mallen Rd">
-<img src="http://images.wsdot.wa.gov/spokane/i90/cctv021.jpg" alt="I-90/Geiger Blvd">
-<img src="http://images.wsdot.wa.gov/spokane/i90/cctv020.jpg" alt="US-2/I-90">
-<img src="http://images.wsdot.wa.gov/spokane/i90/cctv019.jpg" alt="I-90/Finch Arboretum">
-<img src="http://images.wsdot.wa.gov/Spokane/i90/cctv018.jpg" alt="I-90/US-195">
-<img src="http://images.wsdot.wa.gov/spokane/i90/cctv017.jpg" alt="I-90/Jefferson">
-<img src="http://images.wsdot.wa.gov/spokane/i90/cctv002.jpg" alt="I-90/Division">
-<img src="http://images.wsdot.wa.gov/spokane/i90/CCTV004.jpg" alt="I-90/Hamilton">
-<img src="http://images.wsdot.wa.gov/spokane/i90/CCTV006.jpg" alt="I-90/Freya">
-<img src="http://images.wsdot.wa.gov/spokane/i90/CCTV005.jpg" alt="I-90/Havana">
-<img src="http://images.wsdot.wa.gov/spokane/i90/CCTV008.jpg" alt="I-90/Sprague">
-<img src="http://images.wsdot.wa.gov/spokane/i90/CCTV010.jpg" alt="I-90/Park">
-<img src="http://images.wsdot.wa.gov/spokane/i90/CCTV011.jpg" alt="I-90/Argonne">
-<img src="http://images.wsdot.wa.gov/Spokane/i90/cctv013.jpg" alt="I-90/University">
-<img src="http://images.wsdot.wa.gov/Spokane/i90/cctv014.jpg" alt="I-90/Pines">
-<img src="http://images.wsdot.wa.gov/Spokane/i90/cctv015.jpg" alt="I-90/Evergreen">
-<img src="http://images.wsdot.wa.gov/Spokane/i90/cctv016.jpg" alt="I-90/Sullivan">
-<img src="http://images.wsdot.wa.gov/spokane/i90/I-90-Flora.jpg" alt="I-90/Flora">
-<img src="http://images.wsdot.wa.gov/spokane/i90/I-90-Appleway.jpg" alt="I-90/Appleway">
-<img src="http://images.wsdot.wa.gov/spokane/i90/I-90-Liberty-Lake.jpg" alt="I-90/Liberty Lake">
-<img src="http://images.wsdot.wa.gov/spokane/i90/I-90-Harvard.jpg" alt="I-90/Harvard">
-<img src="http://images.wsdot.wa.gov/spokane/i90/I-90-Starr.jpg" alt="I-90/Starr">
-<img src="http://images.wsdot.wa.gov/spokane/i90/I-90-Idaho.jpg" alt="I-90/Idaho">
-
-<picture><figcaption>I-195 GOING SOUTH</figcaption>
-<img src="https://images.wsdot.wa.gov/spokane/sr195/US-195-16th.jpg" alt="US-195-16th"></picture>
-<img src="https://images.wsdot.wa.gov/spokane/sr195/US-195-Inland_Empire.jpg" alt="US-195-Inland_Empire">
-<img src="https://images.wsdot.wa.gov/spokane/sr195/US-195-Cheney_Spokane.jpg" alt="US-195-Cheney_Spokane">
-
-<picture><figcaption>DOWNTOWN GOING WEST...NW</figcaption>
-<img src="http://images.wsdot.wa.gov/spokane/i90/cctv026.jpg" alt="SR-290/Hamilton"></picture>
-<img src="http://images.wsdot.wa.gov/spokane/i90/cctv029.jpg" alt="Downtown 3rd/Washington">
-<img src="http://images.wsdot.wa.gov/spokane/i90/cctv028.jpg" alt="2nd Ave/Monroe St">
-<img src="http://images.wsdot.wa.gov/spokane/i90/cctv030.jpg" alt="3rd/Maple">
-
-<picture><figcaption>9 Mile</figcaption>
-<img src="http://images.wsdot.wa.gov/rweather/NineMile-4.jpg" alt="9-Mile"></picture>
-
-<picture><figcaption>TRAFFIC 395 GOING NORTH</figcaption>
-<img src="http://images.wsdot.wa.gov/spokane/us395/395-Freya.jpg" alt="395 freya"></picture>
-<img src="http://images.wsdot.wa.gov/spokane/us395/Girlach.jpg" alt="girlach">
-<img src="http://images.wsdot.wa.gov/spokane/us395/Fairview.jpg" alt="fairview">
-<img src="http://images.wsdot.wa.gov/spokane/us395/Market.jpg" alt="market">
-<img src="http://images.wsdot.wa.gov/spokane/us395/ParkSmith.jpg" alt="parksmith">
-<img src="http://images.wsdot.wa.gov/spokane/us395/Farwell.jpg" alt="farwell">
-<img src="http://images.wsdot.wa.gov/spokane/us395/395-US-2.jpg" alt="395 us2">
-<img src="http://images.wsdot.wa.gov/Spokane/i90/ccTV012.jpg" alt="farwell">
-<img src="http://images.wsdot.wa.gov/spokane/us395/395-Shady%20Slope.jpg" alt="395 shady slope">
-<img src="http://images.wsdot.wa.gov/spokane/us395/395-Perry.jpg" alt="395 and perry">
-<img src="http://images.wsdot.wa.gov/spokane/us395/395-Wandermere.jpg" alt="395 and wandermere">
-<img src="http://images.wsdot.wa.gov/rweather/ClaytonRd6.jpg" alt="clayton rd">
-<img src="http://images.wsdot.wa.gov/spokane/US395/colville_Canning.jpg" alt="colville canning">
-<img src="http://images.wsdot.wa.gov/rweather/shermanpass_medium.jpg" alt="sherman pass">
-
-<picture><figcaption>I-90 FAR WEST</figcaption>
-<img src="http://images.wsdot.wa.gov/rweather/TylerRoad3.jpg" alt="tyler rd"></picture>
-<img src="http://images.wsdot.wa.gov/rweather/Ritzville3.jpg" alt="ritzville">
-
-<picture><figcaption>Uniontown (SE WA)</figcaption>
-	<img src="http://images.wsdot.wa.gov/rweather/Medium_Uniontown.jpg" alt="uniontown"></picture>
-
-<picture><figcaption>Washington Coastal</figcaption>
-<img src="http://images.wsdot.wa.gov/nw/005vc27650.jpg" alt="I-5 Peace Arch"></picture>
-<img src="http://images.wsdot.wa.gov/nw/005vc27149.jpg" alt="I-5 going under Loomis Trail Rd">
-<img src="http://images.wsdot.wa.gov/nw/005vc24625.jpg" alt="I-5 N Lake Samish">
-<img src="http://webcam.forkswa.com/webcam1/netcam.jpg" alt="la push WA ocean view">
-<img src="https://images.wsdot.wa.gov/sw/101vc00050.jpg" alt="bridge over mouth of columbia river at WA US101 / OR SR401">
-<img src="http://images.wsdot.wa.gov/rweather/Medium_Queets.jpg" alt="queets sr101">
-<img src="https://images.wsdot.wa.gov/orflow/PTGrenville.jpg" alt="grenville">
-
-<img src="http://images.wsdot.wa.gov/rweather/statecamp_medium.jpg" alt="state camp hill sr101">
-
-<img src="https://www.missionridge.com/webcam/sunspot-cam.jpg?c=nocache-1611597279" alt="mission ridge">
-<img src="https://www.iciclechalet.com/cam/icview.jpg" alt="icicle chalet">
-
-
-
-<picture><figcaption>Bonaire, Caribbean Sea</figcaption>
-<img src="http://www.breathebonaire.com/~bonairecam9/preview.jpg" alt="Bonaire island of Leeward Antilles in the Caribbean Sea"></picture>
+				
+				
+				<picture><figcaption>Lake Wenatchee, Pine Cone Cabin</figcaption>
+				<img src="http://pineconecabin.org/Images_Cam/Cabin.jpg" alt="lake wenatchee"></picture>
+				
+				<picture><figcaption><A HREF="https://www.nps.gov/yell/learn/photosmultimedia/webcams.htm">YELLOWSTONE</A></figcaption>
+				<img class="largerImg" src="https://www.nps.gov/webcams-yell/west_gate.jpg?20200243326" alt="pic"></picture>
+				<img class="largerImg" src="https://www.nps.gov/webcams-yell/west_into.jpg?202002433249" alt="pic">
+				
+				<!-- <picture><figcaption>Hurricane Ridge</figcaption>
+				<img class="largerImg" src="https://www.nps.gov/webcams-olym/current_ridgecam.jpg" alt="pic"></picture> -->
+				
+				<picture><figcaption>White Mountains, Phoenix</figcaption>
+					<img class="largerImg" src="https://www.phoenixvis.net/CreateMain.aspx?t=main&p=/images/photos-main/WHTM1.jpg" alt="white mountains west of Phoenix AZ"></picture>
+						
+				<picture>
+					<figcaption>MT RAINEER from Paradise (Mora East)</figcaption>
+					<img class="largerImg" src="http://www.nps.gov/webcams-mora/east.jpg" alt="mt raineer parking lot">
+				</picture>
+				
+				<picture>
+					<figcaption>MT RAINEER from Paradise to the south (Mora)</figcaption>
+					<img src="http://www.nps.gov/webcams-mora/mountain.jpg" alt="Paradise by Mt Raineer">
+				</picture>
+				
+				<!-- <picture>
+					<figcaption>Vet Mem Bridge</figcaption>
+					<img src="https://idcam.carsprogram.org/02D714D0_F90B0DB1_CAM1.jpg?1609348560000" alt="vet mem bridge">
+				</picture>
+				
+				<picture>
+					<figcaption>Wallace Viaduct I-90 Idaho</figcaption>
+					<img src="https://idcam.carsprogram.org/02D4670C_F91769C1_CAM2.jpg?1609348920000" alt="wallace viaduct east view">
+				</picture> -->
 
 
 </div>
-
-
-<hr>
-THE END!
 
 <!-- <script>
 	function myFunction() {
@@ -241,4 +104,8 @@ THE END!
 	</script> -->
 	<!-- <script src="js/scripts.js"></script> -->
 </BODY>
+<hr>
+<footer>
+	
+	<p>about me | contact | @copywright 2023 | sitemap | etc.</p></footer>
 </HTML>

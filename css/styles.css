@@ -8,7 +8,21 @@ body {
     /* grid-template-columns: repeat(auto-fill, 200px); */
     /* grid-template-columns: repeat(auto-fill, minmax(300px,1fr));   */
 /* } */
-embed {background-color: lightgray;}
+
+.news {
+background-color: white;
+}
+
+hr {
+    /* background-color: green; */
+border: 2px purple solid;}
+header, footer {
+    text-align: center;
+    padding: 0 11px; 
+    color: coral; 
+    background-color: black;
+}
+header a {color: gold;}
 #faithful {
     border: 5px solid gold;    
 }
@@ -25,6 +39,12 @@ embed {background-color: lightgray;}
     /* grid-template-columns: repeat(auto-fill, 200px); */
     grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); 
      
+}
+.livegallery {
+    display: grid;
+    grid-auto-flow:row;
+    gap: 22px;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); 
 }
 .topHeading {
     max-width: 500px;

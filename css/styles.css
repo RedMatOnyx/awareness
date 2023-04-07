@@ -1,19 +1,29 @@
 body {
     background-color: gray;
 }
-.video {
-    display: grid;
-    grid-auto-flow: dense;
+/* .video { */
+    /* display: grid; */
+    /* grid-auto-flow: dense; */
     /* grid-template-columns: repeat(5,1fr); */
     /* grid-template-columns: repeat(auto-fill, 200px); */
-    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));  
+    /* grid-template-columns: repeat(auto-fill, minmax(300px,1fr));   */
+/* } */
+#faithful {
+    border: 5px solid gold;    
+}
+.northernlights {
+    border: thin solid greenyellow;
+}
+.mtspokane {
+    border: 2px dashed white;
 }
 .gallery {
     display: grid;
     grid-auto-flow: dense;
     /* grid-template-columns: repeat(5,1fr); */
     /* grid-template-columns: repeat(auto-fill, 200px); */
-    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));  
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); 
+     
 }
 .topHeading {
     max-width: 500px;

@@ -8,7 +8,9 @@ body {
     /* grid-template-columns: repeat(auto-fill, 200px); */
     /* grid-template-columns: repeat(auto-fill, minmax(300px,1fr));   */
 /* } */
-
+input {
+    margin: 0.4rem;
+}
 .news {
 background-color: white;
 }

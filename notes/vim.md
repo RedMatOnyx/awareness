@@ -231,4 +231,5 @@ shift } go to next empty line
 shift v } to select text to next empty line
 CMD ] or [ toggles between windows, while CTRL ww toggles between split screens
 
-
+copy all to clipboard
+ggVG then "*y

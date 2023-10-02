@@ -1,3 +1,4 @@
+<!-- favorite keyboard shortcuts for VS Code -->
 move lines up/down
 option + arrow (+shift to copy)
 
@@ -30,3 +31,26 @@ shift opt A
 
 insert cursor
 opt click, opt cmd arrow, (cmd U to undo last)
+
+select box
+shift option click or command arrow
+
+add selection to next find match
+cmd D (cmd K cmd D to move last selection to next find match)
+
+⌘K ⌘X Trim trailing whitespace     
+
+go to line
+ctrl G ___ enter
+
+⌘T Show all Symbols // like #, ##, ### in any file
+⇧⌘O Go to Symbol... // like #,etc, in current file
+⌃- / ⌃⇧- Go back/forward
+
+⌘K P Copy path of active file
+⌘K R Reveal active file in Finder
+
+⌘K Z Zen Mode (Esc Esc to exit)
+
+
+

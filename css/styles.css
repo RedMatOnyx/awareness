@@ -74,6 +74,19 @@ div img:active {
     left: 50%;
     transform: translate(-50%, -50%) scale(3);
 }
+
+#widgetmain {
+    text-align: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 550px;
+    background-color: transparent;
+    border: 1px solid #333333;
+}
+
+#rsswidget {
+ height: 200px;
+}
 @media only screen and (min-width: 42em){ 
 
     img {

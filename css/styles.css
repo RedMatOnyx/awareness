@@ -87,6 +87,17 @@ div img:active {
 #rsswidget {
  height: 200px;
 }
+
+.svg-background {
+    width: 100px;
+    height: 100px;
+    /* background-image: url('../images/background.svg'); */
+    background-image: url(../images/background.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
 @media only screen and (min-width: 42em){ 
 
     img {

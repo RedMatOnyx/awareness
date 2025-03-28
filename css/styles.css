@@ -1,6 +1,10 @@
 body {
     background-color: gray;
 }
+
+span {border: 1pt solid black;
+background-color: seagreen;}
+
 /* .video { */
     /* display: grid; */
     /* grid-auto-flow: dense; */
@@ -43,6 +47,7 @@ header a {color: gold;}
     /* grid-template-columns: repeat(5,1fr); */
     /* grid-template-columns: repeat(auto-fill, 200px); */
     grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); 
+    row-gap: 5px;
      
 }
 .livegallery {
@@ -67,12 +72,12 @@ div img {
     transition: transform .2s;
   }
 div img:active {
-    -ms-transform: translate(-50%, -50%) scale(3); /* IE 9 */
-    -webkit-transform: translate(-50%, -50%) scale(3); /* Safari 3-8 */
+    /* -ms-transform: translate(-50%, -50%) scale(3); IE 9 */
+    /* -webkit-transform: translate(-50%, -50%) scale(3); Safari 3-8 */
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(3);
+    transform: translate(-50%, -50%) scale(2.5);
 }
 
 #widgetmain {

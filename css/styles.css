@@ -22,6 +22,7 @@ background-color: white;
 hr {
     /* background-color: green; */
 border: 2px purple solid;}
+
 header, footer {
     text-align: center;
     padding: 0 11px; 
@@ -33,7 +34,7 @@ header, footer {
 }
 header a {color: gold;}
 #faithful {
-    border: 5px solid gold;    
+    border: 3px double gold;    
 }
 .northernlights {
     border: thin solid greenyellow;
@@ -106,7 +107,7 @@ div img:active {
     background-repeat: no-repeat;
     background-position: center;
   }
-  
+
 @media only screen and (min-width: 42em){ 
 
     img {

@@ -85,6 +85,10 @@ div img:active {
     transform: translate(-50%, -50%) scale(2.5);
 }
 
+ul[id*="feed"] {
+    background-color: lightgrey; /* Change this to your desired color */
+  }
+
 #widgetmain {
     text-align: left;
     overflow-y: auto;

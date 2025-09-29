@@ -1,3 +1,15 @@
+starting to implement unified header loaded with javascript testing it in the trailheads view
+to add to all other views, add the placeholder div and scriptsource to each view file
+
+waiting to do same to head tags but they are not typical from view to view in the title after |
+
+just learned that i need to move the header into the body
+
+javascript cannot GET /partials/header.html for index.html but works fine for views (using live server)
+...so will just push and see if deployed site works ok...
+
+
+RSS Project
 Still wondering why some of these don't work, and how to find rss feeds to use...
 Will maybe try the following and experiment:
 

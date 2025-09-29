@@ -7,7 +7,15 @@ just learned that i need to move the header into the body
 
 javascript cannot GET /partials/header.html for index.html but works fine for views (using live server)
 ...so will just push and see if deployed site works ok...
+nope, so got rid of javascript header in index.html, just using it for the views
 
+i need to get rid of inline styles on headers and put them all into css file
+
+i have duplicated css in my header, footer block and .banner class (i'll try commenting out the css class and deleting the attribute from my header tag html for simplicity)
+
+i left the unique header in the gamepad tester view because it's a working page and has a seperate index anyway
+
+airports view is only one i tested the new load-title feature, copy to others if it makes sense to do it...
 
 RSS Project
 Still wondering why some of these don't work, and how to find rss feeds to use...

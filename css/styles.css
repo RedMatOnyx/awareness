@@ -29,9 +29,9 @@ header, footer {
     color: coral; 
     background-color: black;
 }
-.banner {
+/* .banner {
      padding: 0 11px; color: coral; background-color: black;
-}
+} */
 header a {color: gold;}
 #faithful {
     border: 3px double gold;    
